@@ -1,2 +1,2 @@
-# OnePageTest2
+# OnePageTest2.github.io
 DaniyarTestOnePage2
