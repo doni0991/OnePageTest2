@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <title>Резюме</title>
+</head>
+
+<body>
+  <div class="header__div"></div>
+  <div class="header__width">
+    <div class="header">
+
+      <div class="header__burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="header__links container">
+
+        <li class="header__link"><a class="link" href="#anketa">Личная информация</a></li>
+        <li class="header__link"><a class="link" href="#information">Опыт</a></li>
+        <li class="header__link"><a class="link" href="#java">JavaScript</a></li>
+        <li class="header__link"><a class="link" href="#about">О себе</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="overlay"></div>
+  <form>
+    <div class="main container">
+      <section class="anketa" id="anketa">
+        <h1>Анкета</h1>
+        <img class="icons" src="imgs/icon1.svg" alt="">
+        <h3>Личная информация</h3>
+
+        <div class="form-select">
+          <input type="text" name="name" autocomplete="off" required value="Imankulov Daniyar Alisherovich">
+          <label for="name" class="label-name">
+            <span class="content-name">ФИО</span>
+          </label>
+        </div>
+        <div class="select__years">
+
+
+          <div class="select-box">
+            <div class="options-container">
+              <div class="option">
+                <input type="radio" class="radio" id="Год рождения" name="category" />
+                <label for="automobiles">1991</label>
+              </div>
+
+              <div class="option">
+                <input type="radio" class="radio" id="film" name="category" />
+                <label for="film">1992</label>
+              </div>
+
+              <div class="option">
+                <input type="radio" class="radio" id="science" name="category" />
+                <label for="science">1993</label>
+              </div>
+
+              <div class="option">
+                <input type="radio" class="radio" id="art" name="category" />
+                <label for="art">1994</label>
+              </div>
+
+              <div class="option">
+                <input type="radio" class="radio" id="music" name="category" />
+                <label for="music">1995</label>
+              </div>
+
+              <div class="option">
+                <input type="radio" class="radio" id="travel" name="category" />
+                <label for="travel">1996</label>
+              </div>
+
+              <div class="option">
+                <input type="radio" class="radio" id="sports" name="category" />
+                <label for="sports">1997</label>
+              </div>
+
+              <div class="option">
+                <input type="radio" class="radio" id="news" name="category" />
+                <label for="news">1998</label>
+              </div>
+
+              <div class="option">
+                <input type="radio" class="radio" id="tutorials" name="category" />
+                <label for="tutorials">1999</label>
+              </div>
+            </div>
+
+            <div class="selected">
+              Год рождения
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="custom-select">
+    <select class="form-select years">
+      <option value="">Month&hellip;</option>
+      <option value="january">January</option>
+      <option value="february">February</option>
+      <option value="march">March</option>
+      <option value="april">April</option>
+      <option value="may">May</option>
+      <option value="june">June</option>
+  </select>
+  <span class="custom-arrow"><img src="arrow.png" alt=""></span> -->
+
+       
+        <div class="form-select">
+          <input type="text" name="email" autocomplete="off" required value="DaniyarS3mini@gmail">
+          <label for="email" class="label-name">
+            <span class="content-name">E-mail</span>
+          </label>
+        </div>
+        <div class="form-select">
+          <input type="text" name="scype" autocomplete="off" required value="cid.a2771b224b425280">
+          <label for="scype" class="label-name">
+            <span class="content-name">Scype</span>
+          </label>
+        </div>
+        
+      </section>
+      <section class="information" id="information">
+        <img class="icons" src="imgs/icon2.svg" alt="">
+        <h3>Расскажите о своем опыте</h3>
+        <div class="checks">
+          <div class="checkbox">
+            <input class="checkbox_input" type="checkbox" id="checkbox_1" name="scales">
+            <label class="checkbox_label" for="checkbox_1">БЭМ/ООCSS</label>
+          </div>
+          <div class="checkbox">
+            <input class="checkbox_input" type="checkbox" id="checkbox_2" name="scales" checked>
+            <label class="checkbox_label" for="checkbox_2">Stylus/LESS/SASS</label>
+          </div>
+          <div class="checkbox">
+            <input class="checkbox_input" type="checkbox" id="checkbox_3" name="scales" checked>
+            <label class="checkbox_label" for="checkbox_3">Работаю с SVG</label>
+          </div>
+          <div class="checkbox">
+            <input class="checkbox_input" type="checkbox" id="checkbox_4" name="scales" checked>
+            <label class="checkbox_label" for="checkbox_4">Верстаю семантично</label>
+          </div>
+          <div class="checkbox">
+            <input class="checkbox_input" type="checkbox" id="checkbox_5" name="scales">
+            <label class="checkbox_label" for="checkbox_5">ES2015/ES2016</label>
+          </div>
+          <div class="checkbox">
+            <input class="checkbox_input" type="checkbox" id="checkbox_6" name="scales">
+            <label class="checkbox_label" for="checkbox_6">Gulp/GRUNT</label>
+          </div>
+          <div class="checkbox">
+            <input class="checkbox_input" type="checkbox" id="checkbox_7" name="scales">
+            <label class="checkbox_label" for="checkbox_7">Webpack</label>
+          </div>
+          <div class="checkbox">
+            <input class="checkbox_input" type="checkbox" id="checkbox_8" name="scales">
+            <label class="checkbox_label" for="checkbox_8">jQuery</label>
+          </div>
+          <div class="checkbox">
+            <input class="checkbox_input" type="checkbox" id="checkbox_9" name="scales">
+            <label class="checkbox_label" for="checkbox_9">Ипользую Git</label>
+          </div>
+        </div>
+      </section>
+      <section class="java container" id="java">
+        <img class="icons" src="imgs/icon3.svg" alt="">
+        <h3>Уровень владения JavaScript</h3>
+        <div class="java-scils">
+          <span>Не владею</span>
+          <span>Использую готовые<br>
+            решения</span>
+          <span>Использую готовые решения<br>
+            и умею и переделывать</span>
+          <span>Пишу сложный JS с нуля</span>
+          <div class="java-borders">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+
+      
+
+        <div class="middle">
+          <div class="slider-container">
+            <span class="bar-2"></span>
+            <span class="bar">
+              <span class="fill">
+
+              </span>
+            </span>
+            <input type="range" min="1" max="5" value="2" class="slider" id="slider">
+          </div>
+        </div>
+
+        </sectio>
+        <section class="about container" id="about">
+          <img class="icons" src="imgs/icon3.svg" alt="">
+          <h3 class="tell__about">Расскажите о себе</h3>
+          <p>
+            Напишите несколько предложений, чем привлекла наша вакансия
+            и что вы ожидаете от работы у нас.
+
+          </p>
+          <textarea name="message"
+            placeholder="Понравилось тем что...">Меня привлекло немалый опыт компании и специалистов, а также возможность обучаться и развиваться</textarea>
+          <button>
+            Готов
+          </button>
+        </section>
+
+    </div>
+  </form>
+
+  <script src="js/java.js"></script>
+  <script src="js/select.js"></script>
+
+</body>
+
+</html>
